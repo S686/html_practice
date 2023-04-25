@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cover</title>
+    <link rel="icon" href="https://www.kt.com/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <label><strong>KT</strong></label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="join.html" class="active">Join</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contents">
+        <section class="wrap">
+            <div class="join-wrap">
+                <div class="attr-wrap">
+                    <label>Work Email</label>&nbsp;
+                    <input type="email" id="email" 
+                    placeholder="input email adress." value="admin@kt.com">
+                </div><hr>
+                <div class="attr-wrap">
+                    <label>Password</label>
+                    <input type="password" id="pw"
+                    placeholder="input password." value="1234">
+                </div><hr>
+                <div class="attr-wrap">
+                    <label>Check Password</label>
+                    <input type="password" id="ckpw"
+                    placeholder="input check password." value="12345">
+                </div><hr>
+                <div class="attr-wrap">
+                    <label>Address</label>
+                    <div class="input-addr">
+                        <label><input type="radio" name="addr" value="seoul" checked>Seoul</label>
+                        <label><input type="radio" name="addr" value="busan">Busan</label>
+                    </div>
+                </div><hr>
+                <div class="attr-wrap">
+                    <label>Birthday</label>
+                    <input type="date" id="birth" value="2000-01-01">
+                </div><hr>
+                <div class="attr-wrap">
+                    <label>Subscription</label>
+                    <select id="subscription">
+                        <!-- select#subscription>option[value=opt$]*3 -->
+                        <option value="opt1" selected>Not Selected</option>
+                        <option value="opt2">Recommend by Friend</option>
+                        <option value="opt3">Advertisement</option>
+                    </select>
+                </div><hr>
+            </div>
+            <button id="join-btn" type="button">Join</button>
+        </section>
+    </main>
+    <footer>
+        <p>All rights reserved. @KT</p>
+    </footer>
+</body>
+</html>
