@@ -11,7 +11,7 @@ html, body{
 }
 
 header{
-    height:60px;
+    height: 60px;
     background-color: white;
     color: black;
 }
@@ -30,24 +30,20 @@ header>nav>ul{
     float: right;
     margin-top: 10px;
 }
-
 header>nav>ul>li{
     float: left;
     list-style: none;
     margin-left: 10px;
 }
-
 header>nav>ul>li>a{
     text-decoration: none;
     font-weight: bold;
     color: #6c757d;
 }
-
 header>nav>ul>li>a.active{
     color: #343a40;
     border-bottom: 3px solid #343a40;
 }
-
 footer{
     max-width: 720px;
     margin: 0 auto;
@@ -55,7 +51,6 @@ footer{
     padding: 20px;
     text-align: center;
 }
-
 footer>p{
     margin: 0;
 }
@@ -67,12 +62,10 @@ main{
     text-align: center;
     display: table;
 }
-
 main>.wrap{
-    display: tabel-cell;
+    display: table-cell;
     vertical-align: middle;
 }
-
 main>section>button{
     border: none;
     background-color: white;
@@ -82,8 +75,21 @@ main>section>button{
     font-weight: bold;
     cursor: pointer;
 }
-
 main>section>button:hover{
-    background-color: gray;
+    background-color: red;
     color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

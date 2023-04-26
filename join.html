@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cover</title>
+    <title>Join</title>
     <link rel="icon" href="https://www.kt.com/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/join.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="wrap">
             <label><strong>KT</strong></label>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -37,12 +42,12 @@
                     placeholder="input check password." value="12345">
                 </div><hr>
                 <div class="attr-wrap">
-                    <label>Address</label>
+                    <label>Address</label><br>
                     <div class="input-addr">
                         <label><input type="radio" name="addr" value="seoul" checked>Seoul</label>
                         <label><input type="radio" name="addr" value="busan">Busan</label>
                     </div>
-                </div><hr>
+                </div><hr style="margin-top: -10px;">
                 <div class="attr-wrap">
                     <label>Birthday</label>
                     <input type="date" id="birth" value="2000-01-01">
