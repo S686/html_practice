@@ -27,3 +27,9 @@
     width: 100%;
     padding: 10px;
 }
+.msg{
+    display: none;
+    float: left;
+    height: 0;
+    color: yellow;
+}

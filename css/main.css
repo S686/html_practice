@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'D2Coding';
-    src: url('font/D2Coding.ttc');
+    src: url('../font/D2Coding.ttc');
 }
 html, body{
     margin: 0;
