@@ -9,6 +9,7 @@ Tool
 - vscode
 - ngrok
 - studio3T
+- flask (flask branch)
 
 DB
 - mongoDB
@@ -27,6 +28,7 @@ KT 스타일 웹페이지 모방 연습작
 - vscode
 - ngrok
 - studio3T
+- flask (flask branch)
 
 데이터베이스
 - mongoDB
