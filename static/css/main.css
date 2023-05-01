@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'D2Coding';
+    src: url('../font/D2Coding.ttc');
+}
+html, body{
+    margin: 0;
+    height: 100%;
+    background-color: #343a40;
+    color: white;
+    font-family: 'Roboto', 'D2Coding', sans-serif;
+}
+
+header{
+    height: 60px;
+    background-color: white;
+    color: black;
+}
+
+header>nav{
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+header>nav>label{
+    font-size: 32px;
+}
+
+header>nav>ul{
+    float: right;
+    margin-top: 10px;
+}
+header>nav>ul>li{
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #6c757d;
+}
+header>nav>ul>li>a.active{
+    color: #343a40;
+    border-bottom: 3px solid #343a40;
+}
+footer{
+    max-width: 720px;
+    margin: 0 auto;
+    height: 20px;
+    padding: 20px;
+    text-align: center;
+}
+footer>p{
+    margin: 0;
+}
+
+main{
+    height: calc(100% - 140px);
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+    display: table;
+}
+main>.wrap{
+    display: table-cell;
+    vertical-align: middle;
+}
+main>section>button{
+    border: none;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+main>section>button:hover{
+    background-color: red;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

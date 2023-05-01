@@ -1,0 +1,35 @@
+.join-wrap{
+    width: 300px;
+}
+.attr-wrap{
+    height: 75px;
+}
+.join-wrap label{
+    float: left;
+    margin-top: 10px;
+}
+#email, #pw, #ckpw, #birth, #subscription{
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 10px;
+    width: calc(100% - 20px);
+    /* !important 선언을 하면 후에 재정의 하더라도 이 code로 적용됨 */
+}
+#subscription{
+    width: 100%
+}
+.input-addr{
+    margin: 10px 0 0 -5px;
+}
+#join-btn{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+}
+.msg{
+    display: none;
+    float: left;
+    height: 0;
+    color: yellow;
+}

@@ -1,0 +1,16 @@
+<header>
+    <nav class="wrap">
+        <label><strong>KT</strong></label>
+        <!-- ul>li*3>a -->
+        <ul>
+            <li><a href="/" class="home">Home</a></li>
+            {% if user %}
+            <li><a href="contents" class="contents">Contents</a></li>
+            <li><a href="logout" class="logout">Logout</a></li>
+            {% else %}
+            <li><a href="join" class="join">Join</a></li>
+            <li><a href="login" class="login">Login</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+</header>
